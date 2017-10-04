@@ -11,7 +11,7 @@ var parse = require("csv-parse");
 
 
 //setup
-app.set("port", process.env.PORT || 2222);
+app.set("port", process.env.PORT || 1111);
 app.use(express.static(path.join(__dirname, "client")));
 
 
